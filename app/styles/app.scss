@@ -24,7 +24,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .banner__arrow {
       display: flex;
-      font-size: 4rem;
+      font-size: 3rem;
+      align-items: center;
 }
 
 .banner__center {
@@ -42,30 +43,31 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .profile {
+  line-height: 2rem;
+  margin: .5rem;
 
  &__name {
   border-bottom: .1rem #6c6c6b solid;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 &__email {
   border-bottom: .1rem #6c6c6b solid;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 &__phone {
   border-bottom: .1rem #6c6c6b solid;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 &__local {
   border-bottom: .1rem #6c6c6b solid;
-  padding: 2rem;
+  padding: 1rem;
 }
 }
 
 .icon {
     font-size: 2rem;
-    padding-right: 1rem;
-    align-items: center;
+    margin: 0 1rem;
 }
