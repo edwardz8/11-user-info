@@ -14,7 +14,9 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .banner {
     padding: 0;
-    background: #428f8b no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    background: #428f8b center fixed;
     background-size: cover;
     margin: 0;
     text-decoration: none;
@@ -22,14 +24,42 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .banner__arrow {
       display: flex;
-      //font-size:
+      font-size: 4rem;
 }
 
 .banner__center {
-    position: relative;
-    margin: 4rem auto;
-    padding: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.banner__pic {
+  color: white;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  border: none;
+
+}
+
+.profile {
+
+ &__name {
+  border-bottom: .1rem #6c6c6b solid;
+  padding: 2rem;
+}
+
+&__email {
+  border-bottom: .1rem #6c6c6b solid;
+  padding: 2rem;
+}
+
+&__phone {
+  border-bottom: .1rem #6c6c6b solid;
+  padding: 2rem;
+}
+
+&__local {
+  border-bottom: .1rem #6c6c6b solid;
+  padding: 2rem;
+}
 }
